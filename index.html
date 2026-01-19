@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Get Fixed 24</title>
 </head>
 <body>
@@ -41,31 +42,41 @@
           <p id="services-paragraph">Comprehensive roofing solutions for residential and commercial properties</p>
         </div>
 
-        <div id="service-text">
-          <button id="roof-replacement">
+        <div id="service-text" class="services">
 
+          <div id="roof-replacement" class="service-card">
+
+              <span class="material-symbols-outlined">home</span>
               <h3>Roof Replacement</h3>
-              <p>Complete roof replacement with high-quality materials and expert installation.</p>
+              <p class="short">Complete roof replacement with high-quality materials and expert installation.</p>
+              <div class="more"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolor iure maxime neque velit! Corporis ratione nisi ea eaque animi repudiandae accusantium itaque nobis magni, rem consequatur omnis aliquid ducimus.</p></div>
+              
+          </div>
+          <div id="roof-repair" class="service-card">
 
-          </button>
-          <button id="roof-repair">
-
+              <span class="material-symbols-outlined">construction</span>
               <h3>Roof Repair</h3>
-              <p>Fast and reliable repairs for leaks, damaged shingles, and storm damage.</p>
+              <p class="short">Fast and reliable repairs for leaks, damaged shingles, and storm damage.</p>
+              <div class="more"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolor iure maxime neque velit! Corporis ratione nisi ea eaque animi repudiandae accusantium itaque nobis magni, rem consequatur omnis aliquid ducimus.</p></div>
 
-          </button>
-          <button id="roop-inspection">
+          </div>
+          <div id="roop-inspection" class="service-card">
 
+              <span class="material-symbols-outlined">shield</span>
               <h3>Roop Inspection</h3>
-              <p>Thorough inspection to identify issues before they become major problems.</p>
+              <p class="short">Thorough inspection to identify issues before they become major problems.</p>
+              <div class="more"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolor iure maxime neque velit! Corporis ratione nisi ea eaque animi repudiandae accusantium itaque nobis magni, rem consequatur omnis aliquid ducimus.</p></div>
 
-          </button>
-          <button id="maintenance">
+          </div>
+          <div id="maintenance" class="service-card">
 
+              <span class="material-symbols-outlined">build</span>
               <h3>Maintenance</h3>
-              <p>Regular maintenance services to extend the life of your roof.</p>
+              <p class="short">Regular maintenance services to extend the life of your roof.</p>
+              <div class="more"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolor iure maxime neque velit! Corporis ratione nisi ea eaque animi repudiandae accusantium itaque nobis magni, rem consequatur omnis aliquid ducimus.</p></div>
+              
+          </div>
 
-          </button>
         </div>
 
       </section>
@@ -79,23 +90,22 @@
 
         <div id="about-text">
 
-        
-          <h4 id="about-heading2">Licensed & Insured</h4>
+          
+          <h4 id="about-heading2"><span class="material-symbols-outlined">license</span>&emsp;Licensed & Insured</h4>
           <p id="about-paragraph2">Fully licensed and insured for your peace of mind</p>
         
         
-      
-          <h4 id="about-heading3">24/7 Emergency Service</h4>
+          <h4 id="about-heading3"><span class="material-symbols-outlined">nest_clock_farsight_analog</span>&emsp;24/7 Emergency Service</h4>
           <p id="about-paragraph3">Available around the clock for urgent repairs</p>
       
 
       
-          <h4 id="about-heading4">Experience Team</h4>
+          <h4 id="about-heading4"><span class="material-symbols-outlined">group</span>&emsp;Experience Team</h4>
           <p id="about-paragraph4">Over 25 years of combined roofing expertise</p>
         
 
       
-          <h4 id="about-heading5">Quality Guarantee</h4>
+          <h4 id="about-heading5"><span class="material-symbols-outlined">check_circle</span>&emsp;Quality Guarantee</h4>
           <p id="about-paragraph5">Workmanship warranty on all our services</p>
           
 
@@ -119,7 +129,7 @@
         <h6 id="contact-heading">Contact Us</h6>
         <p id="contact-paragraph">Get a free estimate for your roofing project</p>
 
-        <form action="https://sheetdb.io/api/v1/u7xi0lgbsprbn" method="post">
+        <form id="contactForm" action="https://sheetdb.io/api/v1/u7xi0lgbsprbn" method="post">
 
             <label for="userName">Full Name&ast;</label>
             <input type="text" name="data[NAME]" id="userName" placeholder="John Doe" required />
@@ -138,6 +148,8 @@
 
         </form>
 
+        <p id="status"></p>
+
       </section>
 
     </main>
@@ -148,9 +160,10 @@
         <p id="footer-paragraph1">Your trusted partner for all Roofing needs & Quality services.</p>
 
         <h6 id="footer-heading2">Contact Info</h6>
+        
         <a id="footer-tel" href="tel:(555) 123-4567">(555) 123-4567</a>
         <a id="footer-mail" href="mailto:services@getfixed24.com">services@getfixed24</a>
-        <a id="footer-address" href="https://maps.apple/p/nTPPeXyeNLoizL" target="_blank">123 Main Street, New York</a>
+        <a id="footer-address" href="https://maps.app.goo.gl/Yn5t9nyCGCCTd4RdA" target="_blank">10151 Deerwood Park Blvd,<br> Building 200, Suite 250, Jackonville, FL 32256, United States</a>
 
         <p id="footer-paragraph2">&copy; 2026 Get Fixed 24. All rights reserved. Owned by Conversion HealthTech Private Limited</p>
 
