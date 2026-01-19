@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const formData = new FormData(form);
 
-    fetch("https://sheetdb.io/api/v1/u7xi0lgbsprbn", {
+    fetch("https://sheetdb.io/api/v1/klxwoljtxs5p7", {
       method: "POST",
       body: formData
     })
