@@ -24,6 +24,7 @@ body {
   background: var(--white);
 }
 
+
 /* ===========================
    HEADER / NAVIGATION
 =========================== */
@@ -57,7 +58,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 32px;
+  padding: 16px 32px 8px 32px;
 }
 
 .logo {
@@ -74,6 +75,19 @@ nav a {
 .nav-links a {
   text-decoration: none;
   font-weight: 500;
+}
+
+#main-logo {
+  height: 10%;
+  width: 10%;
+}
+
+#main-div {
+  display: flex;
+}
+
+#logo {
+  margin-top: 0.6rem;
 }
 
 
@@ -427,6 +441,11 @@ h6 {
     font-weight: 600;
   }
 
+  #main-logo {
+    width: 12%;
+    height: 12%;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -439,5 +458,25 @@ h6 {
     display: block;
     margin: 0.5rem auto;
     width: 90%;
+  }
+
+  #main-logo {
+    width: 33%;
+    height: 33%;
+  }
+
+  #navbar {
+    padding-left: 0;
+  }
+
+  #logo {
+    margin-top: 1.25rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+  #logo {
+    margin-top: 1rem;
   }
 }
