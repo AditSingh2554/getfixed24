@@ -53,6 +53,30 @@ nav a {
   text-decoration: none;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
 /* ===========================
    HERO SECTION
 =========================== */
@@ -305,6 +329,11 @@ nav a {
 #contact-heading {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#contact-paragraph {
+  text-align: center;
 }
 
 form {
@@ -376,6 +405,28 @@ h6 {
     height: 75vh;
     padding: 1rem;
   }
+
+  #about-text {
+    font-size: 60%;
+  }
+
+  #about-text p {
+    margin-top: 0.8rem;
+  }
+
+  #quality-heading {
+    font-size: 150%;
+  }
+
+  #quality-paragraph {
+    font-size: 75%;
+  }
+
+  #nav-links a {
+    font-size: 80%;
+    font-weight: 600;
+  }
+
 }
 
 @media (max-width: 480px) {
